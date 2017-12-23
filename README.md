@@ -1,5 +1,5 @@
 # DjiscordCMD
-Rapidly develop Discord bot responding to text commands in the channel using JAVA
+Rapidly develop Discord bot responding to text commands in the channel using JAVA. This project internally uses [JDA](https://github.com/DV8FromTheWorld/JDA)
 
 ## Adding dependency (Maven)
 Clone the project and do `mvn clean install`, Afterwards, add the following dependency in your pom.xml
