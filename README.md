@@ -1,5 +1,5 @@
 # DjiscordCMD
-APIs to rapidly develop Discord bot responding to text commands in the channel
+Rapidly develop Discord bot responding to text commands in the channel using JAVA
 
 ## Adding dependency (Maven)
 Clone the project and do `mvn clean install`, Afterwards, add the following dependency in your pom.xml
