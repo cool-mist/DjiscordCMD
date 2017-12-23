@@ -12,5 +12,5 @@ Use the annotation `TextCommand` on any methods with both `public` and `static` 
 Use the BotManager `DCMD` to register bots and start
 
 ## Examples
-Checkout [examples]https://github.com/cool-mist/DjiscordCMD/tree/master/djiscord-cmd/src/main/java/io/github/cool_mist/bot/example) 
+Checkout [examples](https://github.com/cool-mist/DjiscordCMD/tree/master/djiscord-cmd/src/main/java/io/github/cool_mist/bot/example) 
 
