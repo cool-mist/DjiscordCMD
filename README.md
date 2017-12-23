@@ -33,6 +33,8 @@ public static void main(String args[]) throws InterruptedException {
     DCMD.start();
 }
 ```
+
+![Demo](https://media.giphy.com/media/l49JC3dwB4uoo73lm/giphy.gif)
  
 
 ## Examples
