@@ -1,5 +1,6 @@
 # DjiscordCMD
 Rapidly develop Discord bot responding to text commands in the channel using JAVA. This project internally uses [JDA](https://github.com/DV8FromTheWorld/JDA)
+![Demo](https://media.giphy.com/media/l49JC3dwB4uoo73lm/giphy.gif)
 
 ## Adding dependency (Maven)
 Clone the project and do `mvn clean install`, Afterwards, add the following dependency in your pom.xml
@@ -33,8 +34,6 @@ public static void main(String args[]) throws InterruptedException {
     DCMD.start();
 }
 ```
-
-![Demo](https://media.giphy.com/media/l49JC3dwB4uoo73lm/giphy.gif)
  
 
 ## Examples
