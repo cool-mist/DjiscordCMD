@@ -1,10 +1,17 @@
 # DjiscordCMD
 APIs to rapidly develop Discord bot responding to text commands in the channel
 
-## Adding dependency
-WIP
-### Maven
-WIP
+## Adding dependency (Maven)
+Clone the project and do `mvn clean install`, Afterwards, add the following dependency in your pom.xml
+```
+...
+  <dependency>
+    <groupId>io.github.cool-mist</groupId>
+    <artifactId>djiscord-cmd</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </dependency>
+...
+```
 
 ## Usage
 Use the annotation `@CommandBot` on any class or interface to define a bot and use the annotation `TextCommand` on any methods with both `public` and `static` modifiers to define response for a command.
