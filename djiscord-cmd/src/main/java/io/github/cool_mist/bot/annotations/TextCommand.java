@@ -19,7 +19,7 @@ public @interface TextCommand {
 	 * The first string which will be used to match this command.
 	 * Eg: if command is 'echo', commands matching 'echo' will receive callback to the annotated method
 	 */
-	String command();
+	String[] command();
 	
 	
 	/**

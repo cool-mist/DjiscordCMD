@@ -93,9 +93,11 @@ public class CommandBotImpl{
 		for(Method m : methods) {
 			if(m.isAnnotationPresent(TextCommand.class)) {
 				if(Modifier.isPublic(m.getModifiers()) && Modifier.isStatic(m.getModifiers())) {
-					String command = m.getAnnotation(TextCommand.class).command();
-					registeredCommands.put(command,m);
-					LOGGER.info("Registered a text command {}, for bot {}", command, name);
+					String[] commandsToRespond = m.getAnnotation(TextCommand.class).command();
+					for(String command: commandsToRespond) {
+						registeredCommands.put(command,m);
+						LOGGER.info("Registered text command {}, for bot {}", command, name);
+					}
 				}else {
 					LOGGER.warn("TextCommand {} not registered, make sure method is public and static");
 				}

@@ -24,7 +24,7 @@ public interface MyBot{
 	/**
 	 * Rolls a random number between 1 and provided number (or 100 by default)
 	 */
-	@TextCommand(command = "roll")
+	@TextCommand(command = { "roll", "random" })
 	public static String roll(String[] message){
 		int max = 100;
 		if(message.length > 1) {
