@@ -3,6 +3,31 @@ Rapidly develop Discord bot responding to text commands in the channel using JAV
 ![Demo](https://media.giphy.com/media/l49JC3dwB4uoo73lm/giphy.gif)
 
 ## Adding dependency (Maven)
+
+### Release version
+Add the following repository definition to your `pom.xml`
+```
+...
+  <repository>
+    <id>djiscord-repo</id>
+    <url>https://raw.githubusercontent.com/cool-mist/DjiscordCMD/repository/repository</url>
+  </repository>
+...
+```
+
+Add the following dependency
+```
+...
+  <dependency>
+    <groupId>io.github.cool-mist</groupId>
+    <artifactId>djiscord-cmd</artifactId>
+    <version>VERSION</version>
+  </dependency>
+...
+```
+Get the `VERSION` from releases page. (Eg : 1.0)
+
+### Latest development version
 Clone the project and do `mvn clean install`, Afterwards, add the following dependency in your pom.xml
 ```
 ...
@@ -13,6 +38,8 @@ Clone the project and do `mvn clean install`, Afterwards, add the following depe
   </dependency>
 ...
 ```
+
+
 
 ## Usage
 Use the annotation `@CommandBot` on any class or interface to define a bot and use the annotation `TextCommand` on any methods with both `public` and `static` modifiers to define response for a command.
