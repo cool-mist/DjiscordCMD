@@ -24,6 +24,11 @@ public interface MyBot{
     public static String echo(String[] message) {
         return "echo";
     }
+    
+     @TextCommand(command = {"roll", "random"})
+    public static String echo(String[] message) {
+       ...
+    }
 }
 ```
 
